@@ -218,6 +218,11 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
     .nav > div li {width: 33.3333%;}
     .nav > div:last-child li{width: 33.3333%;}
     .nav > div ol {margin-bottom: 10px;}
+
+    #cont_right {overflow: hidden;}
+    #cont_right .column {float: left; width: 33.3333%; box-sizing: border-box;}
+    #cont_right .colum.col7 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+    #cont_right .colum.col8 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
 }
 
 /* 화면 너비 0 ~ 768px */
@@ -248,6 +253,10 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
     .column.col1 .menu li a:hover {box-shadow: none; background: rgba(36,130,174,0.3);} 
     .column.col2 {background: #fff;}
 
+    #cont_right .column {width: 50%;}
+    #cont_right .column.col8 {border-right: 0;}
+    #cont_right .column.col9 {display: none;}
+
     .slider figcaption {padding: 10px;}
     .slider figcaption em {font-size: 18px;}
     .slider figcaption span {font-size: 14px;}
@@ -260,6 +269,9 @@ body{background: url(../img/header_bg.jpg) repeat-x center top;}
 @media (max-width: 480px){
     .nav > div li {width: 100%;}
     .nav > div:last-child li{width: 100%;}
+
+    #cont_right .column {width: 100%;}
+    #cont_right .colum.col7{border-right: 0; border-bottom: 1px solid #dbdbdb;}
 
     .square a{width: 100%; margin-right: 0; margin-left: 0;}
 }
